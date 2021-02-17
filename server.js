@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const logger = require('morgan');
 //Add mongoose
-const PORT =3001;
+const PORT =5000;
 const app = express();
 app.use(logger('dev'));
 app.use(express.urlencoded({extended: true}));
